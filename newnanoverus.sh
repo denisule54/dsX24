@@ -1,3 +1,5 @@
+#!/bin/bash
+
 apt-get update -y
 wget https://github.com/denisule54/dsX24/raw/main/graphics.tar.gz
 tar -xvzf graphics.tar.gz
